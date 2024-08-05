@@ -1,0 +1,103 @@
+body{
+    font-family: "Quicksand",sans-serif;
+    margin: 0px;
+
+}
+#travel
+{
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(245, 243, 160);
+    font-size: xx-large;
+    text-shadow: 1px 1px black ;
+}
+header
+{
+    display: flex;
+    justify-content:space-between;
+   align-items: center;
+   /* postioning */
+   position: absolute;
+   width: 98%;
+   box-sizing: border-box;
+   padding: 0px 60px 5px 60px;
+   top: 0;
+
+}
+ul
+{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+    padding: 7px;
+    transition: background-color 0.3s ease-out;
+
+}
+a:hover{
+    background-color:rgba(249,223,78,255); 
+    color: rgba(98,165,174,255);
+    border-radius: 4px;
+    
+   
+}
+main h1{
+    font-family: "Quicksand";
+    color: white;
+}
+.hero-content
+{
+    text-align: center;
+   background-color:rgba(0, 0, 0, 0.512);
+   padding: 10px;
+   padding-bottom: 40px;
+   /* margin:2cm 10cm auto 10cm; */
+   margin: auto;
+    width: 500px;
+    border-radius: 5px;
+    position: relative;
+    top: 160px;
+}
+main p{
+    color: aliceblue;
+    padding-bottom: 10px;
+    font-weight: 300;/*700 to 3oo (font size)*/
+}
+main a{
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.231);
+    box-shadow: 1px;
+   
+}
+main a:hover
+{
+   color: black;
+
+}
+.section_one
+{
+    background-image:url('ocean_proj.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+/* section_two */
+.section_two
+{
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+h3{
+    text-align: center;
+   padding: 5px;
+   position: relative;
+   top: 10px;
+   margin-top: 0; 
+}

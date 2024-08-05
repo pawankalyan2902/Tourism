@@ -1,0 +1,171 @@
+body{
+    width: 90%;
+    margin: 10px auto;
+    background-image: url('https://img.freepik.com/premium-photo/night-cityscape-with-sea-rocks-foreground-night-star-sky-night-urban-landscape-spanish-city-travel-destination-europe-card-view-with-city-lights-waterfront-night_151851-1307.jpg');
+    background-position: center;
+    font-family: 'Quick sand',sans-serif;
+    background-size: cover;
+    color: aliceblue;
+}
+#main_header
+{
+    padding-top: 30px;
+}
+#header
+{
+    color: blanchedalmond;
+}
+h2 a{
+    color:  rgb(245, 243, 160);
+    text-decoration: none;
+    font-family: 'Oleo script' ,sans-serif;
+    font-size: 35px;
+}
+#anchor a
+{
+    color: yellow;
+    text-decoration: none;
+}
+#anchor a:hover
+{
+    background-color:rgba(249,223,78,255); 
+    color: black;
+    border-radius:3px ;
+    padding: 5px;
+    transition: background-color 0.8s ease-out;
+
+}
+
+
+#head
+{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#head li
+{
+     list-style: none;
+}
+#anchor 
+{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-between;
+}
+/* forms */
+form h2
+{
+     color: black;
+     text-align: left;
+     padding-bottom: 10px;
+     padding-left: 20px;
+    
+}
+ li{
+    list-style: none;
+}
+form
+{
+    width: 60%;
+    margin: 30px auto;
+    background-color: azure;
+    border-radius: 5px;
+}
+label
+{
+    color: black;
+    padding-bottom: 3px;
+}
+input
+{
+    border-radius: 5px;
+    border: 3px solid rgba(0, 0, 0, 0.205);
+    padding: 5px;
+}
+input:focus
+{
+    background-color: rgba(207, 209, 209, 0.464);
+    border: 3px solid grey;
+  
+}
+ul
+{
+    padding-left: 0%;
+}
+#info
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 90%;
+    margin-left:20px ;
+    padding-bottom: 10px;
+}
+#radio
+{
+    padding: 10px;
+}
+#checkbox li
+{
+    padding: 10px;
+}
+select#destiny
+{
+    width: 200px;
+    margin-left: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+}
+#button li
+{
+    padding: 5px;
+}
+ul#button
+{
+    padding-bottom: 50px;
+}
+button
+{
+    padding: 15px 20px;
+    color:black;
+    background-color: brown;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#clear
+{
+    background-color: aliceblue;
+    color: black;
+}
+#agrees
+{
+    padding-left: 20px;
+}
+#textarea
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+textarea
+{
+    width: 80%;
+}
+textarea:focus
+{
+    background-color: rgba(207, 209, 209, 0.464);
+    border: 3px solid grey;
+}

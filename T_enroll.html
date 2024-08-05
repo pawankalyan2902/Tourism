@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="t_enroll.css">
+    <title>Enroll</title>
+</head>
+<body>
+    <header id="head"> 
+        <li><h2 ><a href="index.html">TRAVEL</a></h2></li>
+       <li> <h1 id="header">Enrollment details</h1></li>
+       <div id="anchor">
+       <li><a href="T_destination.html">Destination</a></li>
+        <li><a href="T_enroll.html">Enroll</a></li>
+    </div>
+    </header>
+    <main>
+    <form action="/">
+        <li><h2 id="main_header">Personal details</h2></li>
+   <ul >
+    <li id="info">
+    <label for="name">Enter your name</label>
+    <input type="text" name="name" id="name" required >
+    </li>
+
+    <li id="info">
+        <label for="phone">Enter your phone number</label>
+        <input type="number" name="phone" id="phone " minlength="10" required>
+    </li>
+    <li id="info"><label for="age">Enter your age</label>
+         <input type="number" name="age" id="age" min="18" max="50" required>
+    </li>
+    <li id="info"><label for="date">Which date you want join us</label>
+        <input type="date" name="date" id="date" required>
+   </li>
+   </ul>
+   <hr>
+   <ul >
+   <li><h2>Login Credentials</h2></li> 
+    <li id="info"><label for="login">Enter your email ID</label>
+    <input type="email" name="email" id="login" required>
+    </li>
+    <li id="info"><label for="password">Enter the password</label>
+    <input type="password" name="password" id="password"min="7" required>
+</li>
+   </ul>
+   <hr>
+   <ul id="radio_box">
+    <li><h2>Way to contact</h2></li>
+    <li id="radio">
+        <input type="radio" name="contact_by" id="cell" >
+        <label for="cell">By phone</label>
+    </li>
+    <li id="radio">
+        <input type="radio" name="contact_by" id="cell" >
+        <label for="cell">By phone</label>
+    </li>
+    <li id="radio">
+        <input type="radio" name="contact_by" id="cell" >
+        <label for="cell">By phone</label>
+    </li>
+   </ul>
+   <hr>
+   <ul id="checkbox">
+    <h2>Way of transportation (Any two options)</h2>
+    <li>
+        <input type="checkbox" name="transportation" id="car">
+        <label for="car">By car</label></li>
+        <li>
+            <input type="checkbox" name="transportation" id="Train">
+            <label for="Train">By Train</label></li>
+            <li>
+                <input type="checkbox" name="transportation" id="flight">
+                <label for="flight">By Flight</label></li>
+   </ul>
+   <hr>
+  <label for="destiny"><h2>Enter the destination</h2></label> 
+   <select name="Destination" id="destiny">
+    <option value="paris">Paris</option>
+    <option value="London">London</option>
+    <option value="barcelona">Barcelona</option>
+   </select>
+   <hr>
+   <br>
+   <div id="agrees">
+   <label for="agree">Agree to terms and conditions?</label>
+   <input type="checkbox" name="agreed" id="agree">
+</div>
+<div id="textarea">
+<label for="feedback"> Enter your feedback</label>
+<textarea name="feedback" id="feedback" cols="30" rows="3"></textarea>
+</div>
+   <ul id="button">
+    <li ><button type="reset" id="clear">Clear</button></li>
+    <li><button type="submit">Submit</button></li>
+   </ul>
+   
+
+    </form>
+</main>
+    
+</body>
+</html>
